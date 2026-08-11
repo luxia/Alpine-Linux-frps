@@ -1,5 +1,5 @@
 # Alpine-Linux-frps
 自用Alpine-Linux-frps脚本
+默认8500端口token为1234567890
 
-赋予执行权限：chmod +x install_frps.sh。
-以 root 权限运行：sudo ./install_frps.sh。
+bash <(curl -Ls https://raw.githubusercontent.com/luxia/Alpine-Linux-frps/main/frps.sh)
