@@ -37,8 +37,8 @@ chmod +x "$INSTALL_DIR/frps"
 
 # ========== 创建配置文件 ==========
 cat > "$CONFIG_FILE" <<EOF
-bindPort = 7000
-auth.token = "your_token_here"
+bindPort = 8500
+auth.token = "1234567890"
 EOF
 
 # ========== 创建 OpenRC 服务 ==========
